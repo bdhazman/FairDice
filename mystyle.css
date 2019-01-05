@@ -1,0 +1,23 @@
+h1 {
+  font-family: 'Roboto', sans-serif;
+  size: 200px;
+  padding: 25px;
+}
+
+body{
+  background-color: #EEEEEE;
+}
+
+.button {
+  padding: 25px;
+  margin-bottom: 25px;
+  size: 100px;
+}
+
+div.global{
+  align: 'center';
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: auto;
+}
