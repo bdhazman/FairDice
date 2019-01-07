@@ -8,7 +8,6 @@ body{
   padding: 25px;
 }
 
-
 .dicebutton {
   padding: 25px;
   margin-bottom: 25px;
@@ -30,6 +29,7 @@ body{
   padding: 25px;
   margin: auto;
 }
+
 .aboutpage{
   width:50vw;
   margin:auto;
@@ -37,6 +37,16 @@ body{
 .aboutparagraph{
   text-align: center;
   font-size: 3vh;
+}
+
+.madebyme{
+  font-family: "Helvetica Neue";
+  font-weight: regular;
+  font-size: 2vh;
+  color: #303030;
+  margin: auto;
+  padding-top:5vh;
+  text-align: center;
 }
 
 .img{

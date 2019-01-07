@@ -5,15 +5,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-blue.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
   </head>
 
   <h1 class=global>About</h1>
   <div class=aboutpage>
-    <p1 class=aboutparagraph>This web app simulates the rolling of two standard 6-faced die.
-      The way it does so however is "fair" in that within 36 rolls, you will see all 36 possible rolls that can be made.
-      For some board games, this makes the gameplay smoother and more fair.
+    <p1 class=aboutparagraph>This web app kind of simulates the rolling of two
+      standard 6-faced die. I say "kind of" because the way it does so is <b>based
+      on the theoretical probability of rolling the dice rather than randomness</b>
+      like actual dice. What this means is that within 36
+      rolls, you will see all 36 possible rolls that can be made exactly as many
+      times as they should be according to probability. For some board games,
+      this makes the gameplay smoother and more fair.
     </p1>
+    <br>
+    <br>
     <br>
     <br>
     <p1 class=aboutparagraph>
@@ -27,16 +33,18 @@
       means you should see those tiles get rolled 5 times each in 36 rolls,
       you usually won't. This web application remedies that issue by still
       making the order of the rolls random in order, but the distribution
-      exactly as it should be according to probability.
+      exactly as it should be according to the probability. <br> So if you like
+      playing safe and less up to fate, then use this simulator.
     </p1>
     <br>
     <br>
     <p1 class=aboutparagraph>
-      The way this site fixes the issue with standard dice is by creating a list
+      The way this simulator fixes the issue with standard dice is by creating a list
       of every single possible roll, then shuffling that list and taking a "roll" out each time the button is clicked.
     </p1>
   </div>
   <div class=global>
     <img class=img src='diceprobabilitygraphic.png'></img>
   </div>
+  <h1 class="madebyme">Made by <a href="https://bdhazman.github.io">Brent Hazman</a></h1>
 </html>
