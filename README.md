@@ -1,16 +1,16 @@
 # "Fair" Dice
-A dice (2 6-faced) simulator that rolls based on exact probability rather than complete randomness.
+A dice (2x 6-faced die) simulator that rolls a number based on exact probability rather than complete randomness.
 
 Use it [here!](https://bdhazman.github.io/fairDice/fairDice.html)
 
 Great for Settlers of Catan!
 
 ## Why it's needed
-Honestly| I was sick of losing in Settlers of Catan due to poorly placed settlements.
+Honestly, I was sick of losing in Settlers of Catan due to poorly placed settlements.
 
-But actually| when playing the game I realized that the game Catan would be a lot more as expected if the dice rolls were rolled in the proportion that they are expected to be and not based on fate/randomness.
+But actually, when playing the game I realized that the game Catan would go a lot more as expected if the dice rolls were rolled in the proportion that they are supposed to be based on probability and not on fate/randomness.
 
-My initial idea to solve this issue was to make 36 cards| in the following proportion:
+My initial idea to solve this issue was to make 36 numbered cards representing the possible rolls in the following proportions:
 
 | Roll | Probability of being rolled |
 | ------------- | ------------- |
@@ -29,7 +29,7 @@ My initial idea to solve this issue was to make 36 cards| in the following propo
 Since I'm better with programming than arts and crafts I figured the easier option would be to simulate this with a program instead.
 
 ## How it does it
-Essentially, the program generates a deck of cards that looks like this (except with all of the dice posibilities the correct amount):
+Essentially, the program generates a deck of cards that looks like this (below table representations are shortened for the sake of both of us):
 
 | rolls |
 | - |
@@ -61,6 +61,6 @@ then it shuffles it:
 | 8 |
 |...|
 
-Then, on each roll, a card is taken out of the deck and put aside, when the deck is empty it is reshuffled.
+Then, on each roll, a card is taken from the top of the deck and put aside, when the deck is empty it is reshuffled.
 
 So, you don't get complete randomness, but you get the correct proportionality according to probability of the dice rolls in a shuffled manner.
