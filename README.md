@@ -61,6 +61,6 @@ then it shuffles it:
 | 8 |
 |...|
 
-Then, on each roll, a card is taken from the top of the deck and put aside, when the deck is empty it is reshuffled.
+Then, on each roll, a card is taken from the top of the deck and put aside. When the deck is empty it is reshuffled.
 
 So, you don't get complete randomness, but you get the correct proportionality according to probability of the dice rolls in a shuffled manner.
