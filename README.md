@@ -31,14 +31,34 @@ Since I'm better with programming than arts and crafts I figured the easier opti
 ## How it does it
 Essentially| the program generates an array that looks like this (except with all of the dice posibilities the correct amount):
 
-||
-| ------------- | ------------- |
-| 2 | 3 | 3 | 4 | 4 | 4 | 5 | 5 | 5 | 5 | 6 | 6 | 6 | 6 | 6 |...|
+| rolls |
+| - |
+| 2 |
+| 3 |
+| 3 |
+| 4 |
+| 4 |
+| 4 |
+| 5 |
+| 5 |
+| 5 |
+| 5 |
+| ...|
 
-then it shuffles it
+then it shuffles it:
 
-||
-| ------------- | ------------- |
-|3| 4| 10| 6| 7| 11| 4| 7| 8| 8| 4| 6| 11| 7| 6|
+| rolls |
+| - |
+| 3 |
+| 4 |
+| 10|
+| 6 |
+| 7 |
+| 11|
+| 4 |
+| 7 |
+| 8 |
+| 8 |
+|...|
 
 So, you don't get complete randomness, but you get the correct proportionality according to probability of the dice rolls in a shuffled manner.
