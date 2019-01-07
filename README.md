@@ -29,7 +29,7 @@ My initial idea to solve this issue was to make 36 cards| in the following propo
 Since I'm better with programming than arts and crafts I figured the easier option would be to simulate this with a program instead.
 
 ## How it does it
-Essentially| the program generates an array that looks like this (except with all of the dice posibilities the correct amount):
+Essentially, the program generates a deck of cards that looks like this (except with all of the dice posibilities the correct amount):
 
 | rolls |
 | - |
@@ -60,5 +60,7 @@ then it shuffles it:
 | 8 |
 | 8 |
 |...|
+
+Then, on each roll, a card is taken out of the deck and put aside, when the deck is empty it is reshuffled.
 
 So, you don't get complete randomness, but you get the correct proportionality according to probability of the dice rolls in a shuffled manner.
