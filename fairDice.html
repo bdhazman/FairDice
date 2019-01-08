@@ -10,20 +10,21 @@
   </head>
 
   <script src="fairDice.js"></script>
+  <div id="page">
+    <!-- Icon button -->
+    <div class='navbutton' align=right>
+      <button class="mdl-button mdl-js-button mdl-button--icon" align='right' onclick="location.href='about.html'">
+        <i class="material-icons">info</i>
+      </button>
+    </div>
 
-  <!-- Icon button -->
-  <div class='navbutton' align=right>
-    <button class="mdl-button mdl-js-button mdl-button--icon" align='right' onclick="location.href='about.html'">
-      <i class="material-icons">info</i>
-    </button>
+    <h1 id="number" class="number">0</h1>
+
+    <div align='center' class="dicebutton">
+      <body>
+        <button id="rollbutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="rollDice();"> Roll Dice</button>
+      </body>
+    </div>
+    <h1 class="madebyme">Made by <a href="https://bdhazman.github.io">Brent Hazman</a></h1>
   </div>
-
-  <h1 id="number" class="number">0</h1>
-
-  <div align='center' class="dicebutton">
-    <body>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="rollDice();"> Roll Dice</button>
-    </body>
-  <div>
-  <h1 class="madebyme">Made by <a href="https://bdhazman.github.io">Brent Hazman</a></h1>
 </html>

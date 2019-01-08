@@ -1,32 +1,36 @@
 body{
   background-color: #EEEEEE;
 }
-
+#page{
+  height: 100vh;
+}
 .number {
-  font-size: 40vh;
+  font-size: calc(45vh);
   text-align: center;
-  padding: 25px;
+}
+
+#rollbutton{
+  height: 10vh;
+  width: 30vw
 }
 
 .dicebutton {
-  padding: 25px;
+  padding: 1vw;
   margin-bottom: 25px;
-  size: 100px;
+  size: 100vw;
 }
 
 .global{
   text-align: center;
   align: center;
   width: 300px;
-  border: 25px;
-  padding: 25px;
+  padding: 1vw;
   margin: auto;
 }
 
 .navbutton{
   align: right;
-  border: 25px;
-  padding: 25px;
+  padding: 2vw;
   margin: auto;
 }
 
@@ -34,19 +38,25 @@ body{
   width:50vw;
   margin:auto;
 }
+
 .aboutparagraph{
   text-align: center;
-  font-size: 3vh;
+  font-size: calc(8px + 1vw);
+  line-height: calc(8px + 1vw);
 }
 
 .madebyme{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
   font-family: "Helvetica Neue";
   font-weight: regular;
   font-size: 2vh;
   color: #303030;
   margin: auto;
-  padding-top:5vh;
-  text-align: center;
+  margin-bottom: 0px;
+  padding: 1vw;
 }
 
 .img{
