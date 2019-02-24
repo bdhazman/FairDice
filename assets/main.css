@@ -6,6 +6,7 @@ body{
 }
 .number {
   font-size: calc(45vh);
+  color: #000000;
   text-align: center;
 }
 

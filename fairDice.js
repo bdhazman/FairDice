@@ -1,4 +1,5 @@
 var diceRolls = [];
+var oddRoll = false;
 
 function populateDiceRolls(){
   for(i = 1; i <= 6; i++){
@@ -19,7 +20,10 @@ function shuffleDiceRolls(){
 
 function rollDice(){
   var number = diceRolls.pop();
+
   document.getElementById("number").innerHTML = number;
+  document.getElementById("number").style.color = oddRoll ? "#000000" : "#888888";
+  oddRoll = !oddRoll;
   if(diceRolls.length == 0){
     populateDiceRolls();
     shuffleDiceRolls();
